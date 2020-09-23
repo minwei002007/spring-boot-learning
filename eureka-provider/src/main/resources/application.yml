@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-provider
+  main:
+    allow-bean-definition-overriding: true
+server:
+  port: 9002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone : http://localhost:9001/eureka/
+
+
