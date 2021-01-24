@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class EurekaServerApplicationTests {
+public class EurekaConsumerServerApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void test() {
+		System.out.println("111");
 	}
 
 }
